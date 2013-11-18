@@ -4,7 +4,7 @@ logo:             sleek-r-logo-filled.png
 disqus_shortname: 
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://rlucioni.github.io/jekyll-site
+url:              renzolucioni.com
 
 # Owner/author information
 owner:
