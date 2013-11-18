@@ -40,8 +40,10 @@ I attempted to address this issue by displaying students' scores live, right nex
 
 Here's what the same question can look like after my changes:
 
-<figure class="half">
+<figure>
     <a href="http://i.imgur.com/MzGGkNo.png"><img src="http://i.imgur.com/MzGGkNo.png"></a>
+</figure>
+<figure>
     <a href="http://i.imgur.com/MIewo29.png"><img src="http://i.imgur.com/MIewo29.png"></a>
     <figcaption>After In-context Scores</figcaption>
 </figure>
