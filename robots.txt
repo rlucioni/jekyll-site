@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: http://renzolucioni.com/sitemap.xml
