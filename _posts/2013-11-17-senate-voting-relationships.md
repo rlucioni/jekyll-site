@@ -2,7 +2,7 @@
 layout: post
 title: Voting Relationships between Senators
 description: "A series of popular network visualizations illustrating how senators in the 101st through 113th Congresses have voted."
-modified: 2013-11-17
+modified: 2013-12-4
 category: articles
 tags: [congress, senate, voting, visualization]
 image:
@@ -21,8 +21,8 @@ These network visualizations were featured on the [Yahoo!](http://news.yahoo.com
     <figcaption>Yahoo! Front Page Coverage</figcaption>
 </figure>
 
-[The Huffington Post](http://www.huffingtonpost.com/2013/11/13/senate-polarization_n_4268863.html?1384374260) and [PolicyMic](http://www.policymic.com/articles/73435/what-s-wrong-with-the-senate-in-one-simple-gif) also ran stories on my visualizations.
+[The Economist](http://www.economist.com/blogs/graphicdetail/2013/12/daily-chart), [The Huffington Post](http://www.huffingtonpost.com/2013/11/13/senate-polarization_n_4268863.html?1384374260) and [PolicyMic](http://www.policymic.com/articles/73435/what-s-wrong-with-the-senate-in-one-simple-gif) also ran stories on my visualizations.
 
-I made the graphs using [Gephi](https://gephi.org/), data from [GovTrack](https://www.govtrack.us/data/congress/), and some Python [code](http://nbviewer.ipython.org/urls/gist.github.com/rlucioni/1ef3c5c9412569b4c82d/raw/22bbb04b1ac700fd79c57379ad93c2fe6fc254d5/senate-voting-relationships). In each graph, edge (*u*, *v*) is assigned weight equal to the number of times Senator *u* and Senator *v* voted the same way, either Yea or Nay. For the sake of clarity, I filtered out edges with weight less than 100; these lighter edges generally indicate agreement on procedural votes.
+I made the graphs using [Gephi](https://gephi.org/), data from [GovTrack](https://www.govtrack.us/data/congress/), and some Python [code](http://nbtest.herokuapp.com/urls/gist.github.com/rlucioni/1ef3c5c9412569b4c82d/raw/22bbb04b1ac700fd79c57379ad93c2fe6fc254d5/senate-voting-relationships?create=1). In each graph, edge (*u*, *v*) is assigned weight equal to the number of times Senator *u* and Senator *v* voted the same way, either Yea or Nay. For the sake of clarity, I filtered out edges with weight less than 100; these lighter edges generally indicate agreement on procedural votes.
 
 The clusters you see in each graph are the result of using Gephi's Force Atlas layout which applies a physics model to the graph and causes those nodes connected by heavier edges to be pulled together more tightly. A nice side-effect of using this physics model is that more bipartisan senators are pushed closer to the center of the graph, near the party divide, while less bipartisan senators are repelled outwards toward the the perimeter of the graph, furthest from the party divide.
