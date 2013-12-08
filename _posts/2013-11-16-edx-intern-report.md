@@ -34,17 +34,17 @@ Here's an example of the process in action. Speaking with groups of edX users, w
 I attempted to address this issue by displaying students' scores live, right next to the titles of the problems they're working on. Here's what a typical question looked like before my changes:
 
 <figure>
-    <a href="http://i.imgur.com/bTdegxe.png"><img src="http://i.imgur.com/bTdegxe.png"></a>
+    <img src="http://i.imgur.com/bTdegxe.png">
     <figcaption>Before In-context Scores</figcaption>
 </figure>
 
 Here's what the same question can look like after my changes:
 
 <figure>
-    <a href="http://i.imgur.com/MzGGkNo.png"><img src="http://i.imgur.com/MzGGkNo.png"></a>
+    <img src="http://i.imgur.com/MzGGkNo.png">
 </figure>
 <figure>
-    <a href="http://i.imgur.com/MIewo29.png"><img src="http://i.imgur.com/MIewo29.png"></a>
+    <img src="http://i.imgur.com/MIewo29.png">
     <figcaption>After In-context Scores</figcaption>
 </figure>
 

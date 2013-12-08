@@ -18,7 +18,7 @@ I led a team of five which sent a hamburger into the stratosphere and filmed the
 We were parodied by Jay Leno on [The Tonight Show](http://www.nbc.com/the-tonight-show/video/monologue-part-2-111212/1423754/). In addition, we were featured on the Yahoo! front page.
 
 <figure>
-    <a href="http://i.imgur.com/lrBE8La.jpg"><img src="http://i.imgur.com/lrBE8La.jpg"></a>
+    <a href="http://news.yahoo.com/video/harvard-students-send-hamburger-space-032008259.html"><img src="http://i.imgur.com/lrBE8La.jpg"></a>
     <figcaption>Yahoo! Front Page Coverage</figcaption>
 </figure>
 
