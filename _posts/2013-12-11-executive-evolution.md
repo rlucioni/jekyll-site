@@ -186,6 +186,13 @@ The size of the executive office staff also generally grows over time, with an e
     <a href="http://i.imgur.com/yjtlAJh.png"><img src="http://i.imgur.com/yjtlAJh.png"></a>
 </figure>
 
+To reveal trends in the data after FDR, we plot the same data on a log scale.
+
+<figure>
+    <!-- staff size, log scale -->
+    <a href="http://i.imgur.com/frUpk7Z.png"><img src="http://i.imgur.com/frUpk7Z.png"></a>
+</figure>
+
 The combined exploration of administrative power shows general growth in power exercised by the president over time. Franklin Roosevelt's presidency is exceptional under all examined metrics. Theodore Roosevelt and Woodrow Wilson's presidencies stand out given their use of executive orders. President Cleveland is unique in his use of vetoes, and, more recently, President Obama also has the formidable task of dealing with the Great Recession.
 
 Furthermore, we performed a multi-variate regression on the number of executive orders, federal surplus/deficit, and GDP growth with presidential approval ratings, and found no significant correlation. Thus, even though administrative power is publicly viewed as the most significant aspect of the presidency, the numbers that we examine above cannot be used as predictors of presidential success.
