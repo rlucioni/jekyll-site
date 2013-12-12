@@ -252,7 +252,7 @@ It turns out that of our hypothesized measures of a president's legislative powe
     <a href="http://i.imgur.com/UP4CWox.png"><img src="http://i.imgur.com/UP4CWox.png"></a>
 </figure>
 
-Even though it only explains about 10% of the variation in presidential approval ratings, this model shows us that, on average, the more papers a president writes to Congress in a year, the lower that president's approval rating for that year. This is unlikely to be a directly causal relationship; rather, the reason for this phenomenon could be that the president writes frequently to Congress when the nation has numerous problems to address, which also affects presidential approval at that time. As such, this model should be taken with a grain of salt; it is not to be considered the underlying truth. This model gives us the beginning of a quantitative understanding of what it means for a president to be effective with his legislative power.
+Even though it only explains about 10% of the variation in presidential approval ratings, this model shows us that, on average, the more papers a president writes to Congress in a year, the lower that president's approval rating for that year. This is unlikely to be a direct causal relationship. The reason for this phenomenon could be that the president writes frequently to Congress when the nation has numerous problems to address, which also affects presidential approval ratings at that time. As such, this model should be taken with a grain of salt; it is not to be considered the underlying truth. This model gives us the beginning of a quantitative understanding of what it means for a president to be effective with his legislative power.
 
 ### <a name="rhetorical"></a> Rhetorical Power ###
 
