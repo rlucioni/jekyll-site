@@ -42,7 +42,7 @@ The presidency today is not what it was when George Washington took office. It h
 
 More specifically, our goal in this project is to study the evolution of the three main components of presidential power: rhetorical power, administrative power, and legislative power. Using a variety of data collected by UCSB's [American Presidency Project](http://www.presidency.ucsb.edu/), we examine how presidential rhetoric has evolved throughout the history of the executive office, how the president's use of executive power has changed throughout the years, and how the president's interactions with Congress have transformed. In doing so, we gain a quantitative understanding of what makes an administration successful, and develop a method for objectively grouping the presidents.
 
-We see that both executive and legislative power have expanded throughout the years, but presidents are exercising their rhetorical power less. We also learn that the assertive use of executive power tends to be correlated with successful presidents. Surprisingly, the opposite is true of legislative power.
+We see that both executive and legislative power have expanded throughout the years, and that while presidents are exercising their rhetorical power more often, they say less to the public during each address. We also learn that the assertive use of executive power tends to be correlated with successful presidents. Surprisingly, the opposite is true of legislative power.
 
 ### <a name="defining-success"></a> Defining Success ###
 
@@ -252,13 +252,15 @@ It turns out that of our hypothesized measures of a president's legislative powe
     <a href="http://i.imgur.com/UP4CWox.png"><img src="http://i.imgur.com/UP4CWox.png"></a>
 </figure>
 
-Even though it only explains about 10% of the variation in presidential approval ratings, this model shows us that, on average, the more papers a president writes to Congress in a year, the lower that president's approval rating for that year. This model should be taken with a grain of salt; it is not to be considered the underlying truth. This model gives us the beginning of a quantitative understanding of what it means for a president to be effective with his legislative power.
+Even though it only explains about 10% of the variation in presidential approval ratings, this model shows us that, on average, the more papers a president writes to Congress in a year, the lower that president's approval rating for that year. This is unlikely to be a directly causal relationship; rather, the reason for this phenomenon could be that the president writes frequently to Congress when the nation has numerous problems to address, which also affects presidential approval at that time. As such, this model should be taken with a grain of salt; it is not to be considered the underlying truth. This model gives us the beginning of a quantitative understanding of what it means for a president to be effective with his legislative power.
 
 ### <a name="rhetorical"></a> Rhetorical Power ###
 
 > "Going public"... is a strategy whereby a president promotes himself and his policies in Washington by appealing directly to the American public for support.
 >
 > \- Samuel Kernell, author of *Going Public*
+
+Rhetorical power involves the use of rhetoric by the president to inspire others to behave differently than they otherwise would. The president applies his rhetorical power to members of Congress, to domestic and foreign governments, and most commonly, to the American public.
 
 Modern presidents address the public more often than their predecessors, but they say less during each address. For example, consider how State of the Union addresses have changed in length over time.
 
@@ -334,9 +336,9 @@ Note how popular presidents tend to discuss social progress, while unpopular pre
 
 ### <a name="conclusions"></a> Conclusions ###
 
-We find that presidents who exercise their administrative, legislative, and rhetorical power effectively tend to be perceived as better presidents. These traits may not necessarily predict presidential success, but the correlations we discover still provide useful insights into how presidents are perceived.
+At the onset of this project, we set out to (1) quantitatively document changes in the American presidency seen throughout its history, and (2) uncover some "objective" predictors of presidential success. We accomplish the former, but do not find strong, consistent predictors of success in numbers. Nevertheless, the qualitative observations we uncover still provide useful insights into the ingredients that may be necessary for presidential greatness.
 
-We see that use of presidential administrative power has expanded. Landmark presidents such as FDR, Woodrow Wilson, and Teddy Roosevelt are in large part responsible for this expansion, taking the power of the office into their own hands to effect the changes they sought. We see that successful presidents tend to use executive power more often.
+First, we see that while use of presidential administrative power waxes and wanes, it has generally expanded over time. Landmark presidents such as FDR, Woodrow Wilson, and Teddy Roosevelt are in large part responsible for this expansion, taking the power of the office into their own hands to effect the changes they sought. While abundant use of executive orders and vetoes cannot predict presidential success, we see that the greatest presidents are more likely to have used executive power liberally.
 
 In contrast, we observe that presidents who exercise their legislative power more frequently to interact with Congress tend to be perceived as less successful. We see that presidents today write to Congress more often than their predecessors. More recent papers also tend to be longer. 
 
