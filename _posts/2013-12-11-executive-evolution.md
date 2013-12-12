@@ -6,21 +6,20 @@ modified: 2013-12-11
 category: articles
 tags: [cs109, data science, american presidency]
 comments: false
-published: false
 ---
 
 <div align="center">
     <img src="http://i.imgur.com/HNZE5pQ.png"></a>
     <br><br>
-    <b>By Renzo Lucioni, Kathy Lin, Sherrie Wang, and Matthew Moellman</b>
+    <b>By Kathy Lin, Renzo Lucioni, Matthew Moellman and Sherrie Wang</b>
     <br><br>
-    <a markdown="0" href="https://github.com/rlucioni/cs109-project" class="btn">View on GitHub</a>
+    <a markdown="0" href="https://github.com/rlucioni/executive-evolution" class="btn">View on GitHub</a>
 </div>
 
 This screencast accompanies the following article.
 
 <!-- embed screencast here -->
-<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/oHg5SJYRHA0" allowfullscreen frameborder="0">
+<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/Z_ucSP5Fmdk" allowfullscreen frameborder="0">
 </iframe>
 
 ## Table of Contents ##
@@ -32,7 +31,6 @@ This screencast accompanies the following article.
     * [Budget and Staff](#budget-staff)
 * [Legislative Power](#legislative)
 * [Rhetorical Power](#rhetorical)
-    * [Characterizing Addresses](#char-addrs)
     * [Predictive Text Analysis](#predictive-text)
 * [Conclusions](#conclusions)
 
@@ -42,13 +40,15 @@ This screencast accompanies the following article.
 
 The presidency today is not what it was when George Washington took office. It has changed continuously over time, and several facets of the office have only emerged in modern times. As such, time is a key factor to take into consideration when attempting to compare the many presidents of the United States. However, despite changing times, there are presidents from all periods of American history who are commonly considered "great" presidents. In this project, we study the evolution of the executive office over time and attempt to quantitatively explain the success of "great" presidents such as Washington, Lincoln, and Franklin D. Roosevelt - presidents who faced unique challenges and lived in starkly different times.
 
-More specifically, our goal in this project is to study the evolution of the three main components of presidential power: rhetorical power, administrative power, and legislative power. We examine how presidential rhetoric has evolved throughout the history of the executive office, how the president's use of executive power has changed throughout the years, and how the president's interactions with Congress have transformed. In doing so, we gain a quantitative understanding of what makes an administration successful, and develop a method for objectively grouping the presidents.
+More specifically, our goal in this project is to study the evolution of the three main components of presidential power: rhetorical power, administrative power, and legislative power. Using a variety of data collected by UCSB's [American Presidency Project](http://www.presidency.ucsb.edu/), we examine how presidential rhetoric has evolved throughout the history of the executive office, how the president's use of executive power has changed throughout the years, and how the president's interactions with Congress have transformed. In doing so, we gain a quantitative understanding of what makes an administration successful, and develop a method for objectively grouping the presidents.
+
+We see that both executive and legislative power have expanded throughout the years, but presidents are exercising their rhetorical power less. We also learn that the assertive use of executive power tends to be correlated with successful presidents. Surprisingly, the opposite is true of legislative power.
 
 ### <a name="defining-success"></a> Defining Success ###
 
 > The office of the president is so staggeringly complicated that nobody can, by conventional measurement, be "a good president."
 >
-> \- William F. Buckley, founder of National Review
+> \- William F. Buckley, founder of *National Review*
 
 We begin by defining a metric for measuring the success of a president. We combine historical Gallup Presidential Approval Ratings with a collection of academic rankings to create a robust, aggregated ranking of the presidents. Note that approval ratings are only available from the time of FDR's presidency onwards. In addition, keep in mind that approval ratings reflect public sentiment only at the time polls are administered; they do not necessarily align with the way a president is viewed in retrospect. For example, Truman was disliked in his time, but is viewed today as one of the great presidents.
 
@@ -71,7 +71,7 @@ With these three pillars of the presidency in mind, we direct our attention to t
 
 <figure>
     <!-- Siena correlations -->
-    <a href="http://i.imgur.com/nRBn0O5.png"><img src="http://i.imgur.com/nRBn0O5.png"></a>
+    <a href="http://i.imgur.com/SbP05xk.png"><img src="http://i.imgur.com/SbP05xk.png"></a>
 </figure>
 
 Attributes relating to administrative power are colored in red, while those relating to rhetorical power are colored in green and those relating to legislative power are colored in blue; purple denotes attributes unrelated to these three kinds of presidential power. This graph tells us that several attributes most strongly correlated with presidential rankings relate to administrative power; these attributes are "Executive Ability," "Executive Appointments," and "Court Appointments." "Communication" is the only attribute in the survey related to rhetorical power, and it is slightly less correlated with presidential rankings than the administrative attributes. "Relations with Congress" and "Party Leadership" are both attributes related to legislative power, and they are some of the attributes least correlated with presidential rankings.
@@ -139,6 +139,7 @@ What about the lengths of executive orders over time? The following scatterplot 
 <figure>
     <!-- executive orders, length -->
     <a href="http://i.imgur.com/8XMhbIz.png"><img src="http://i.imgur.com/8XMhbIz.png"></a>
+    <figcaption>Executive orders have increased in length.</figcaption>
 </figure>
 
 From our exploration so far, we know which presidents used the most executive orders and note the changing nature of these orders.
@@ -169,7 +170,7 @@ Since it is the job of the president and the Office of Management and Budget (OM
 
 <figure>
     <!-- receipts and outlays -->
-    <a href="http://i.imgur.com/i7eqg4z.png"><img src="http://i.imgur.com/i7eqg4z.png"></a>
+    <a href="http://i.imgur.com/MfJbPJa.png"><img src="http://i.imgur.com/MfJbPJa.png"></a>
 </figure>
 
 As usual, Franklin Roosevelt's presidency is uniquely a time of huge outlays and huge deficit. The receipts and outlays as a function of GDP grow from 1930 to the 1950s, and remain relatively constant since then. Another spike in outlays and dip in surplus/deficit can be seen with the recent Great Recession.
@@ -240,7 +241,7 @@ The following chart shows how many papers each president wrote. The presidents a
 
 <figure>
     <!-- counts of papers to congress -->
-    <a href="http://i.imgur.com/qzKMStn.png"><img src="http://i.imgur.com/qzKMStn.png"></a>
+    <a href="http://i.imgur.com/jlwuyll.png"><img src="http://i.imgur.com/jlwuyll.png"></a>
     <figcaption>Modern presidents seem to write more papers.</figcaption>
 </figure>
 
@@ -251,13 +252,31 @@ It turns out that of our hypothesized measures of a president's legislative powe
     <a href="http://i.imgur.com/UP4CWox.png"><img src="http://i.imgur.com/UP4CWox.png"></a>
 </figure>
 
-This model is to be taken with a grain of salt; it is not to be considered the underlying truth. This model gives us the beginning of a quantitative understanding of what it means for a president to be effective with his legislative power. Even though it only explains about 10% of the variation in presidential approval ratings, this model shows us that, on average, the more papers a president writes to Congress in a year, the lower that president's approval rating for that year.
+Even though it only explains about 10% of the variation in presidential approval ratings, this model shows us that, on average, the more papers a president writes to Congress in a year, the lower that president's approval rating for that year. This model should be taken with a grain of salt; it is not to be considered the underlying truth. This model gives us the beginning of a quantitative understanding of what it means for a president to be effective with his legislative power.
 
 ### <a name="rhetorical"></a> Rhetorical Power ###
 
-#### <a name="char-addrs"></a> Characterizing Addresses ####
+> "Going public"... is a strategy whereby a president promotes himself and his policies in Washington by appealing directly to the American public for support.
+>
+> \- Samuel Kernell, author of *Going Public*
 
-We can visualize how, for a particular president, approval ratings change before and after a State of the Union address. Here's such a visualization for Bill Clinton.
+Modern presidents address the public more often than their predecessors, but they say less during each address. For example, consider how State of the Union addresses have changed in length over time.
+
+<figure>
+    <!-- length of SOTUs over time -->
+    <a href="http://i.imgur.com/bfKFaEi.png"><img src="http://i.imgur.com/bfKFaEi.png"></a>
+</figure>
+
+After peaking in length in the late 19th century, State of the Union addresses appear to be becoming shorter. Below, we visualize the lengths of the president's Saturday radio addresses.
+
+<figure>
+    <!-- length of saturday radio addresses over time -->
+    <a href="http://i.imgur.com/mvDoykZ.png"><img src="http://i.imgur.com/mvDoykZ.png"></a>
+</figure>
+
+Like State of the Union addresses, the president's Saturday radio addresses appear to be becoming shorter, although much more gradually so.
+
+Despite their reduced length, public addresses dramatically influence the public's perception of the president. This effect is made clear by visualizing approval ratings before and after State of the Union addresses. Below is such a visualization for Bill Clinton.
 
 <figure>
     <!-- Clinton SOTUs and approval ratings -->
@@ -271,55 +290,56 @@ Here's another such visualization, this one for George W. Bush.
     <a href="http://i.imgur.com/LyhYyr5.png"><img src="http://i.imgur.com/LyhYyr5.png"></a>
 </figure>
 
-In both examples shown here, we see that a president's approval rating tends to drop immediately after a State of the Union address. 
+In both examples shown here, we see that a president's approval rating tends to drop immediately after a State of the Union address.
 
-We can also visualize how State of the Union addresses have changed in length over time.
-
-<figure>
-    <!-- length of SOTUs over time -->
-    <a href="http://i.imgur.com/bfKFaEi.png"><img src="http://i.imgur.com/bfKFaEi.png"></a>
-</figure>
-
-After peaking in length in the late 19th century, State of the Union addresses appear to be becoming shorter. We can perform the same exercise for the president's Saturday radio addresses.
-
-<figure>
-    <!-- length of saturday radio addresses over time -->
-    <a href="http://i.imgur.com/mvDoykZ.png"><img src="http://i.imgur.com/mvDoykZ.png"></a>
-</figure>
-
-Like State of the Union addresses, the president's Saturday radio addresses appear to be becoming shorter, although much more gradually so.
-
-We can determine which words and phrases presidents favor in their speeches. Let's first examine common words in State of the Union addresses.
+The words and phrases used in presidential addresses can tell us about the themes presidents tend to focus on. First, we examine common words and phrases in State of the Union addresses.
 
 <figure>
     <!-- most common words in SOTUs -->
     <a href="http://i.imgur.com/aUPe29J.png"><img src="http://i.imgur.com/aUPe29J.png"></a>
 </figure>
 
-Unsurprisingly, "government," "congress," and "united states" are some of the most common words and phrases. Others in this list include "people," "great," "war," and "world." Inaugural addresses feature many of these same words.
+We can visualize these results by using a word cloud.
 
 <figure>
     <!-- SOTU cloud -->
     <a href="http://i.imgur.com/FBnnBOm.png"><img src="http://i.imgur.com/FBnnBOm.png"></a>
 </figure>
 
+Unsurprisingly, "government," "congress," and "united states" are some of the most common words and phrases in State of the Union addresses. Others in this list include "people," "great," "war," and "world." Inaugural addresses feature many of these same words.
+
 <figure>
     <!-- most common words in radio addresses -->
     <a href="http://i.imgur.com/ys2Xgdr.png"><img src="http://i.imgur.com/ys2Xgdr.png"></a>
 </figure>
 
-"People" and "america" top this list, reflecting the target audience of these addresses.
+As before, we can visualize these results by using a word cloud.
 
 <figure>
     <!-- radio cloud -->
     <a href="http://i.imgur.com/ERuf4xc.png"><img src="http://i.imgur.com/ERuf4xc.png"></a>
 </figure>
 
+"People," "america," and "american" top this list, reflecting the target audience of these addresses.
+
 #### <a name="predictive-text"></a> Predictive Text Analysis ####
 
-Words that best predict a popular president in a Saturday radio address include "parents," "schools," "children," and "challenge." Words that best predict an unpopular president in a Saturday radio address include "middle class," "troops," "terrorists," and "iraq."
+The [Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) is a statistical tool commonly used to perform spam email filtering. By applying this tool to presidential Saturday radio addresses, we are able determine which words and phrases best predict a president's party and popularity. 
 
+Words and phrases which are most strongly associated with Democratic presidents include "middle class," "college," "crime," "communities," and "care." Words which are most strongly associated with Republican presidents include "freedom," "god," "terror," "inflation," and "defense."
+
+Words and phrases which are most strongly associated with popular presidents include "parents," "schools," "children," and "challenge." Words and phrases which are most strongly associated with unpopular presidents include "middle class," "troops," "terrorists," "financial," and "market."
+
+Note how popular presidents tend to discuss social progress, while unpopular presidents tend to address domestic and foreign concerns. The words and phrases presidents favor reflect the changing state of the nation. Popular presidents are able to discuss social progress because their time affords them this opportunity. Unpopular presidents often find themselves discussing domestic and foreign problems because they are forced to by the state of the world at the time in which they are in office. As such, we see that the perceived success of a president is determined largely by the challenges of his time.
 
 ### <a name="conclusions"></a> Conclusions ###
 
-We can use the insights gathered above regarding the rhetorical, administrative, and legislative presidencies to objectively group the presidents. One way of achieving this is through the use of a technique known as hierarchical agglomerative clustering.
+We find that presidents who exercise their administrative, legislative, and rhetorical power effectively tend to be perceived as better presidents. These traits may not necessarily predict presidential success, but the correlations we discover still provide useful insights into how presidents are perceived.
+
+We see that use of presidential administrative power has expanded. Landmark presidents such as FDR, Woodrow Wilson, and Teddy Roosevelt are in large part responsible for this expansion, taking the power of the office into their own hands to effect the changes they sought. We see that successful presidents tend to use executive power more often.
+
+In contrast, we observe that presidents who exercise their legislative power more frequently to interact with Congress tend to be perceived as less successful. We see that presidents today write to Congress more often than their predecessors. More recent papers also tend to be longer. 
+
+Finally, we see that the use of rhetorical power has evolved. Presidents address the public more often than they did a century ago, but they say less each time. We are unable to find a good rhetorical indicator of presidential success, but we find that the words presidents use tend reflect their perceived success. Popular presidents tend to discuss social progress, using words like "parents," "schools," and "children." On the other hand, unpopular presidents often discuss social concerns and foreign policy issues, using words like "middle class," "troops," and "terrorists."
+
+Our conclusions serve as a reminder that the ultimate success of a president is as much a function of the era he inherits as his use of administrative, legislative, and rhetorical power. Some presidents are tested with trying times and rise to the challenge; others are unable to overcome their hurdles, and still others never get the opportunity to prove themselves. Becoming a great president, then, requires a perfect mix of historical context and presidential character.
