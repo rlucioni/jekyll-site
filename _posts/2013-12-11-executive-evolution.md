@@ -11,7 +11,7 @@ comments: false
 <div align="center">
     <img src="http://i.imgur.com/HNZE5pQ.png"></a>
     <br><br>
-    <b>By Kathy Lin, Renzo Lucioni, Matthew Moellman and Sherrie Wang</b>
+    <b>Kathy Lin, Renzo Lucioni, Matthew Moellman and Sherrie Wang</b>
     <br><br>
     <a markdown="0" href="https://github.com/rlucioni/executive-evolution" class="btn">View on GitHub</a>
 </div>
