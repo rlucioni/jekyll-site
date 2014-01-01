@@ -4,7 +4,7 @@ title: Engineering an Objective Approach to Product Management
 description: "A summary of my work during the summer of 2013 at edX."
 modified: 2013-11-16
 category: articles
-tags: [edX, internship, engineering, product management]
+tags: [edX, internship, engineering, product]
 image:
   feature: edx-logo.jpg
 comments: false

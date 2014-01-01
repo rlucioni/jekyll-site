@@ -4,7 +4,7 @@ title: Supercomputing Power by Country
 description: "Visualizing the amount of supercomputing power held by countries on the TOP500 list."
 modified: 2013-12-22
 category: articles
-tags: [supercomputing, visualization]
+tags: [supercomputing, power, visualization]
 comments: false
 ---
 

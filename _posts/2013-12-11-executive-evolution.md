@@ -4,7 +4,7 @@ title: The Evolution of the American Presidency
 description: "A study in how the use of presidential power has changed since the inception of the office."
 modified: 2013-12-11
 category: articles
-tags: [cs109, data science, american presidency]
+tags: [american presidency, data sciences]
 comments: false
 ---
 
