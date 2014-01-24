@@ -10,9 +10,9 @@ image:
 comments: false
 ---
 
-> Though America’s political polarisation has become a fact of life, it has never been seen so graphically: as a diseased brain, with few neural pathways between the two hemispheres.
+> "Though America’s political polarisation has become a fact of life, it has never been seen so graphically: as a diseased brain, with few neural pathways between the two hemispheres."
 >
-> The Economist, December 7 issue
+> \- *The Economist*, December 7 issue
 
 Using voting data from the 101st Congress through the current 113th Congress, I created a series of network visualizations showing voting relationships between senators. They can be found in this [album](http://imgur.com/a/Wmoex#0). I used these visualizations to create the GIF below, which illustrates a widening gap between Democratic and Republican senators.
 

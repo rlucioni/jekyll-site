@@ -46,7 +46,7 @@ We see that both executive and legislative power have expanded throughout the ye
 
 ### <a name="defining-success"></a> Defining Success ###
 
-> The office of the president is so staggeringly complicated that nobody can, by conventional measurement, be "a good president."
+> "The office of the president is so staggeringly complicated that nobody can, by conventional measurement, be 'a good president.'"
 >
 > \- William F. Buckley, founder of *National Review*
 
@@ -81,7 +81,7 @@ We use the varying strengths of these correlations to inform our analysis of the
 
 ### <a name="administrative"></a> Administrative Power ###
 
-> Suffice it to say that the President is made the sole repository of the executive powers of the United States, and the powers entrusted to him as well as the duties imposed upon him are awesome indeed.
+> "Suffice it to say that the President is made the sole repository of the executive powers of the United States, and the powers entrusted to him as well as the duties imposed upon him are awesome indeed."
 >
 > \- William Rehnquist, 16th Chief Justice of the United States
 
@@ -201,7 +201,7 @@ Furthermore, we performed a multi-variate regression on the number of executive 
 
 ### <a name="legislative"></a> Legislative Power ###
 
-> An elective despotism was not the government we fought for; but one in which the powers of government should be so divided and balanced among the several bodies of magistracy as that no one could transcend their legal limits without being effectually checked and restrained by the others.
+> "An elective despotism was not the government we fought for; but one in which the powers of government should be so divided and balanced among the several bodies of magistracy as that no one could transcend their legal limits without being effectually checked and restrained by the others."
 >
 > \- James Madison, Federalist No. 58
 
@@ -256,7 +256,7 @@ Even though it only explains about 10% of the variation in presidential approval
 
 ### <a name="rhetorical"></a> Rhetorical Power ###
 
-> "Going public"... is a strategy whereby a president promotes himself and his policies in Washington by appealing directly to the American public for support.
+> "'Going public'... is a strategy whereby a president promotes himself and his policies in Washington by appealing directly to the American public for support."
 >
 > \- Samuel Kernell, author of *Going Public*
 

@@ -6,7 +6,7 @@ modified: 2013-10-25
 category: articles
 tags: [hamburger, space]
 image:
-  feature: hamburger-in-space.jpg
+  feature: hamburger-in-space-thin.jpg
 comments: false
 ---
 
