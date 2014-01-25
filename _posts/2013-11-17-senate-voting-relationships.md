@@ -2,13 +2,22 @@
 layout: post
 title: Voting Relationships between Senators
 description: "A series of popular network visualizations illustrating how senators in the 101st through 113th Congresses have voted."
-modified: 2013-12-15
+modified: 2014-01-24
 category: articles
 tags: [senate, voting, visualization]
 image:
-  feature: senate-voting-113-2013.png
+  feature: senate-voting-header.jpg
 comments: false
 ---
+
+<script>
+ (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.src = 'http://assets.gfycat.com/js/gfyajax-0.517d.js';
+    s.parentNode.insertBefore(g, s);
+}(document, 'script'));
+</script>
 
 > "Though America’s political polarisation has become a fact of life, it has never been seen so graphically: as a diseased brain, with few neural pathways between the two hemispheres."
 >
@@ -16,7 +25,9 @@ comments: false
 
 Using voting data from the 101st Congress through the current 113th Congress, I created a series of network visualizations showing voting relationships between senators. They can be found in this [album](http://imgur.com/a/Wmoex#0). I used these visualizations to create the GIF below, which illustrates a widening gap between Democratic and Republican senators.
 
-![Senate Voting Patterns]({{ site.url }}/images/senate-voting-patterns.gif)
+<div align="center">
+    <img class="gfyitem" data-id="FloweryDirtyGermanshorthairedpointer" />
+</div>
 
 I made the graphs using [Gephi](https://gephi.org/), roll call data from [GovTrack](https://www.govtrack.us/data/congress/), and this [Python code](http://nbtest.herokuapp.com/gist/rlucioni/7796000). In each graph, edge (*u*, *v*) is assigned weight equal to the number of times Senator *u* and Senator *v* voted the same way, either Yea or Nay. For the sake of clarity, I filtered out edges with weight less than 100; these lighter edges generally indicate agreement on procedural votes.
 
