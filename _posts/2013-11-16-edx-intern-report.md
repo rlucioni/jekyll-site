@@ -6,7 +6,7 @@ modified: 2013-11-16
 category: articles
 tags: [edX, internship, engineering, product]
 image:
-  feature: edx-logo.png
+  feature: edX-logo.png
 comments: false
 ---
 
