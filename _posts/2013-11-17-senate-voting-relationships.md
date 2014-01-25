@@ -23,7 +23,7 @@ comments: false
 >
 > \- *The Economist*, December 7 issue
 
-Using voting data from the 101st Congress through the current 113th Congress, I created a series of network visualizations showing voting relationships between senators. They can be found in this [album](http://imgur.com/a/Wmoex#0). I used these visualizations to create the GIF below, which illustrates a widening gap between Democratic and Republican senators.
+Using voting data from the 101st Congress through the current 113th Congress, I created a series of network visualizations showing voting relationships between senators. They can be found in this [album](http://imgur.com/a/Wmoex#0). I used these visualizations to create the animation below, which illustrates a widening gap between Democratic and Republican senators.
 
 <div align="center">
     <img class="gfyitem" data-id="FloweryDirtyGermanshorthairedpointer" />
