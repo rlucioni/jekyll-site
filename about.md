@@ -10,9 +10,9 @@ image:
   creditlink: http://crowquills.com/Intermezzo
 ---
 
-Hi, I’m Renzo Lucioni. I'm currently a senior at Harvard University studying Computer Science. I also work part-time as an intern at [edX](https://www.edx.org/).
+Hi, I’m Renzo Lucioni. I'm a Harvard senior who enjoys solving problems and organizing information. I'm interested in using information visualization to make complex data accessible, useful, and even fun.
 
 <div align="center">
-    <a markdown="0" href="https://www.dropbox.com/s/oiv451hh39r86u6/renzo-lucioni-resume.pdf" class="btn">View My Resume</a>
+    <a markdown="0" href="http://renzolucioni.com/resume" class="btn">View My Resume</a>
     <a markdown="0" href="mailto:renzo@renzolucioni.com" class="btn">Email Me</a>
 </div>

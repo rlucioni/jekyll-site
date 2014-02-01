@@ -10,7 +10,7 @@ image:
 comments: false
 ---
 
-I led a team of five which sent a hamburger into the stratosphere and filmed the entire journey. We used a 600 gram weather balloon, 120 cubic feet of helium, a GoPro camera, an [HTC Rezound](http://www.htc.com/us/smartphones/htc-rezound/) for cheap GPS, a parachute, and a styrofoam cooler for storing the electronics. We were sponsored by Boston-area hamburger chain [b.good](http://www.bgood.com/), and completed the project in under two weeks using less than $500. Here's the video we made.
+I led a team of five which sent a hamburger into the stratosphere and filmed the entire journey. We used a 600 gram weather balloon, 120 cubic feet of helium, a GoPro camera, an [HTC Rezound](http://www.htc.com/us/smartphones/htc-rezound/) for cheap GPS, a parachute, and a styrofoam cooler for storing the electronics. We were sponsored by Boston-area hamburger chain [b.good](http://www.bgood.com/). In under two weeks, we created the company’s most highly-viewed advertisement using less than $500. Here's the video we made.
 
 <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/nRkQE0I4NZw" allowfullscreen frameborder="0">
 </iframe>
