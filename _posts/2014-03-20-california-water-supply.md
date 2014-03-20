@@ -6,6 +6,7 @@ modified: 2014-03-20
 category: articles
 tags: [california, water, visualization]
 comments: false
+published: false
 ---
 
 Serving over 30 million people, irrigating more than 5.6 million acres of farmland, and carrying approximately 49 billion cubic meters of water every year, California’s interconnected water system is the world’s largest and most productive.<sup><a href="http://en.wikipedia.org/wiki/Water_in_California" target="_blank" title="Wikipedia">1</a></sup> Lacking reliable dry season rainfall and boasting the largest population of any US state, water is especially limited in California. As a result, water and water rights have become issues of tremendous importance in the state.
