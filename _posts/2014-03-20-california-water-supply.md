@@ -1,7 +1,7 @@
 ---
 layout: post
 title: California's Water Supply
-description: "Visualizing changes in California's water supply, broken down by reservoir."
+description: "Visualizing changes in California's water supply."
 modified: 2014-03-20
 category: articles
 tags: [california, water, visualization]
