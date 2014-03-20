@@ -13,7 +13,7 @@ I created the following visualizations to illustrate the amount of supercomputin
 <figure>
     <!-- tflops per country -->
     <a href="http://i.imgur.com/yQvzBeT.png" target="_blank"><img src="http://i.imgur.com/yQvzBeT.png"></a>
-    <figcaption>Click for a larger version.</figcaption>
+    <figcaption>Click image for a larger version.</figcaption>
 </figure>
 
 The United States, China, and Japan top the list, with Germany, France, the United Kingdom and Switzerland trailing them. India's total is surprisingly low.
@@ -23,7 +23,7 @@ I was also curious about the amount of supercomputing power available per capita
 <figure>
     <!-- mflops per capita, by country -->
     <a href="http://i.imgur.com/zdDxjY7.png" target="_blank"><img src="http://i.imgur.com/zdDxjY7.png"></a>
-    <figcaption>Click for a larger version.</figcaption>
+    <figcaption>Click image for a larger version.</figcaption>
 </figure>
 
 Switzerland's high per capita totals may be attributable to the country's small population and the number of academic research institutions located there. The United States remains in second place, while China has dropped to 17th place. As expected, India ranks last among these countries in terms of per capita supercomputing power.

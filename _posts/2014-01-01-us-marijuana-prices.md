@@ -14,7 +14,7 @@ In light of these recent developments, I was curious about how the price of mari
 
 <figure>
     <a href="http://i.imgur.com/ewZJhQW.png" target="_blank"><img src="http://i.imgur.com/ewZJhQW.png"></a>
-    <figcaption>Click for a larger version.</figcaption>
+    <figcaption>Click image for a larger version.</figcaption>
 </figure>
 
 Prices for high quality marijuana appear to be consistently lowest closer to the West Coast, and have dropped considerably since 2010. As of 2013, one gram of high quality marijuana can be most cheaply purchased in Washington State, Oregon, or Colorado. A single gram of high quality marijuana appears to be most expensive in North Dakota.
