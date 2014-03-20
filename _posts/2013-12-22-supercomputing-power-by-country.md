@@ -12,7 +12,7 @@ I created the following visualizations to illustrate the amount of supercomputin
 
 <figure>
     <!-- tflops per country -->
-    <a href="http://i.imgur.com/yQvzBeT.png"><img src="http://i.imgur.com/yQvzBeT.png"></a>
+    <a href="http://i.imgur.com/yQvzBeT.png" target="_blank"><img src="http://i.imgur.com/yQvzBeT.png"></a>
     <figcaption>Click for a larger version.</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ I was also curious about the amount of supercomputing power available per capita
 
 <figure>
     <!-- mflops per capita, by country -->
-    <a href="http://i.imgur.com/zdDxjY7.png"><img src="http://i.imgur.com/zdDxjY7.png"></a>
+    <a href="http://i.imgur.com/zdDxjY7.png" target="_blank"><img src="http://i.imgur.com/zdDxjY7.png"></a>
     <figcaption>Click for a larger version.</figcaption>
 </figure>
 

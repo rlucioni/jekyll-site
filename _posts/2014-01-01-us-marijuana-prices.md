@@ -13,7 +13,7 @@ In November, landmark votes significantly eased marijuana laws in Colorado and W
 In light of these recent developments, I was curious about how the price of marijuana has changed nationally over the last few years. Using transaction data collected anonymously by [priceofweed.com](http://www.priceofweed.com/) and made available by Zachary M. Jones on [GitHub](https://github.com/zmjones/priceofweed), I assembled the following series of twelve choropleth maps. Note that the prices shown here most likely correspond to bulk purchases.
 
 <figure>
-    <a href="http://i.imgur.com/ewZJhQW.png"><img src="http://i.imgur.com/ewZJhQW.png"></a>
+    <a href="http://i.imgur.com/ewZJhQW.png" target="_blank"><img src="http://i.imgur.com/ewZJhQW.png"></a>
     <figcaption>Click for a larger version.</figcaption>
 </figure>
 

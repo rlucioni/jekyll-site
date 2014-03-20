@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Voting Relationships between Senators
-description: "A series of popular network visualizations illustrating how senators in the 101st through 113th Congresses have voted."
+description: "A series of network visualizations illustrating how senators in the 101st through 113th Congresses have voted."
 modified: 2014-01-24
 category: articles
 tags: [senate, voting, visualization]
@@ -36,7 +36,7 @@ The clusters you see in each graph are the result of using Gephi's Force Atlas l
 These network visualizations were first featured on the [Yahoo!](http://news.yahoo.com/the-splitting-of-the-senate--now-in-convenient-gif-form-213908185.html) front page.
 
 <figure>
-    <a href="http://news.yahoo.com/the-splitting-of-the-senate--now-in-convenient-gif-form-213908185.html"><img src="http://i.imgur.com/PFBRsNy.png"></a>
+    <a href="http://news.yahoo.com/the-splitting-of-the-senate--now-in-convenient-gif-form-213908185.html" target="_blank"><img src="http://i.imgur.com/PFBRsNy.png"></a>
     <figcaption>Yahoo! Front Page Coverage</figcaption>
 </figure>
 
