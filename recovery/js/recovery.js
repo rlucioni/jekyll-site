@@ -711,8 +711,8 @@ meter = loadingContainer.append("g").attr("class", "progress-meter");
 
 text = meter.append("text").attr("text-anchor", "middle").attr("dy", ".35em").text("Loading...");
 
-d3.json("../data/compressed-nationwide-data.json", function(nationwide) {
-  return d3.json("../data/compressed-augmented-us-states-and-counties.json").get(function(error, us) {
+d3.json("data/compressed-nationwide-data.json", function(nationwide) {
+  return d3.json("data/compressed-augmented-us-states-and-counties.json").get(function(error, us) {
     var _ref3;
     meter.transition().delay(250).attr("transform", "scale(0)");
     _ref3 = [nationwide, us], nationalData = _ref3[0], usGeo = _ref3[1];
