@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Recovery</title>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/recovery.css">
+
+    <!-- Google Web Fonts (Lato) -->
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lato:300,400,700'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type='text/css' href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    <!-- D3 -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+
+</head>
+<body>
+
+    <div id="title">Recovery</div>
+
+    <div id="instructions"><strong>Left-click</strong> a county to zoom. <strong>Right-click</strong> a county for which we have data to graph its history. <strong>Drag</strong> the circle below to move through time.</div>
+
+    <div id="buttons">
+        <input type="radio" id="r0" name="dimensionSwitch" value="0" checked><label for="r0"><span><strong>Median list price</strong></span></label>
+        <input type="radio" id="r1" name="dimensionSwitch" value="1"><label for="r1"><span><strong>Median list price / ft<sup>2</sup></strong></span></label>
+        <input type="radio" id="r2" name="dimensionSwitch" value="2"><label for="r2"><span><strong>Listings with price cut</strong></span></label>
+        <input type="radio" id="r3" name="dimensionSwitch" value="3"><label for="r3"><span><strong>Median price reduction</strong></span></label>
+        <input type="radio" id="r4" name="dimensionSwitch" value="4"><label for="r4"><span><strong>Median rent price / ft<sup>2</sup></strong></span></label>
+    </div>
+
+    <div id="tooltip" class="hidden">
+        <p><span id="county"></span></p>
+    </div>
+
+    <div id="visualization"></div>
+
+    <!-- 
+    NOTE: We're using CoffeeScript (http://coffeescript.org/), a cleaner and       
+    less syntactically-dense version of JavaScript, to generate the JavaScript   
+    necessary to work with D3. We store our CoffeeScript in the `coffee` directory,
+    and keep the compiled, human-readable JavaScript in the `js` directory.      
+    Since it contains our comments and formatting, we strongly recommend looking   
+    at our CoffeeScript code. Besides, it's very similar to the JavaScript we would
+    otherwise write; if you know JavaScript, you know CoffeeScript. Thank you    
+    for understanding.
+    -->
+    <script src="js/recovery.js"></script>
+
+</body>
+</html>
