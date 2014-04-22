@@ -16,7 +16,7 @@ California is currently coming off of its warmest winter on record, aggravating 
 While I read about it in the news often, I've had trouble putting the situation in California in context. I made the following visualization to help me do so.
 
 <figure>
-    <a href="http://i.imgur.com/iJbnDF8.png" target="_blank"><img src="http://i.imgur.com/iJbnDF8.png"></a>
+    <a href="http://i.imgur.com/ynGNcKC.png" target="_blank"><img src="http://i.imgur.com/ynGNcKC.png"></a>
     <figcaption>Click image for a larger version.</figcaption>
 </figure>
 
