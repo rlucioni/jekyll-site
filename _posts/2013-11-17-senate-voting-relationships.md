@@ -29,7 +29,7 @@ Using voting data from the 101st Congress through the current 113th Congress, I 
     <img class="gfyitem" data-id="FloweryDirtyGermanshorthairedpointer" />
 </div>
 
-I made the graphs using [Gephi](https://gephi.org/), roll call data from [GovTrack](https://www.govtrack.us/data/congress/), and this [Python code](http://nbtest.herokuapp.com/gist/rlucioni/7796000). In each graph, edge (*u*, *v*) is assigned weight equal to the number of times Senator *u* and Senator *v* voted the same way, either Yea or Nay. For the sake of clarity, I filtered out edges with weight less than 100; these lighter edges generally indicate agreement on procedural votes.
+I made the graphs using [Gephi](https://gephi.org/), roll call data from [GovTrack](https://www.govtrack.us/data/congress/), and this [Python code](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/anonymous/11267960/raw/32ffb765372a3470738914b9c287e14f166ad5ac/svv.ipynb). In each graph, edge (*u*, *v*) is assigned weight equal to the number of times Senator *u* and Senator *v* voted the same way, either Yea or Nay. For the sake of clarity, I filtered out edges with weight less than 100; these lighter edges generally indicate agreement on procedural votes.
 
 The clusters you see in each graph are the result of using Gephi's Force Atlas layout, which applies a force-directed algorithm to the graph and causes those nodes connected by heavier edges to be pulled together more tightly. A nice side-effect of using this physics-based model is that more bipartisan senators are pushed closer to the center of the graph, near the party divide, while less bipartisan senators are repelled outwards toward the perimeter of the graph, furthest from the party divide.
 
