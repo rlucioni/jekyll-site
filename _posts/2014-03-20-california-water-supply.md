@@ -2,11 +2,10 @@
 layout: post
 title: California's Water Supply
 description: "Visualizing changes in California's water supply."
-modified: 2014-03-20
+modified: 2014-04-24
 category: articles
 tags: [california, water, visualization]
 comments: false
-published: false
 ---
 
 Serving over 30 million people, irrigating more than 5.6 million acres of farmland, and carrying approximately 49 billion cubic meters of water every year, California’s interconnected water system is the world’s largest and most productive.<sup><a href="http://en.wikipedia.org/wiki/Water_in_California" target="_blank" title="Wikipedia">1</a></sup> Lacking reliable dry season rainfall and boasting the largest population of any US state, water is especially limited in California. As a result, water and water rights have become issues of tremendous importance in the state.
@@ -29,3 +28,10 @@ Observing these drastic declines in the state's water supply is eye-opening in i
 In order to create this graph, I first used [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/) to scrape every end-of-month reservoir storage measurement provided by the [California Department of Water Resources](http://cdec.water.ca.gov/misc/monthly_res.html) (DWR) for each of California's 191 reservoirs. Using [D3](http://d3js.org/), I then created the stacked area graph you see in the visualization. The layers are colored by hashing each reservoir's unique 3-letter identifier to a hex color code. The DWR's data is most complete beginning in July 1957, a year after the department was created, which is why I chose to begin the area graph there.<sup><a href="http://en.wikipedia.org/wiki/California_Department_of_Water_Resources" target="_blank" title="Wikipedia">6</a></sup> Finally, I used data from the [Google Public Data Explorer](http://bit.ly/1fIErIw) to plot California's population over the area graph.
 
 My code and all associated data are available on [GitHub](https://github.com/rlucioni/viz/tree/master/water).
+
+On April 24, 2014, a modified version of this visualization was featured by [*The Economist*](http://www.economist.com/blogs/graphicdetail/2014/04/daily-chart-10) in an article on its Graphic Detail blog. The modified chart appears below.
+
+<figure>
+    <a href="http://www.economist.com/blogs/graphicdetail/2014/04/daily-chart-10" target="_blank"><img src="http://i.imgur.com/NtHIaoF.png"></a>
+    <figcaption>Click image for a larger version.</figcaption>
+</figure>
