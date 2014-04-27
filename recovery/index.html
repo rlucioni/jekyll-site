@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Recovery</title>
+    <title>US Housing Trends</title>
     
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/recovery.css">
@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <div id="title">Recovery</div>
+    <div id="title">US Housing Trends</div>
 
     <div id="instructions"><strong>Left-click</strong> a county to zoom. <strong>Right-click</strong> a county for which we have data to graph its history. <strong>Drag</strong> the circle below to move through time.</div>
 
@@ -31,7 +31,7 @@
         <button class="btn" type="button" name="dimensionSwitch" value="1">Median list price / ft²</button>
         <button class="btn" type="button" name="dimensionSwitch" value="2">Listings with price cut</button>
         <button class="btn" type="button" name="dimensionSwitch" value="3">Median price reduction</button>
-        <button class="btn" type="button" name="dimensionSwitch" value="4">Median rent price / ft²</button>
+        <!-- <button class="btn" type="button" name="dimensionSwitch" value="4">Median rent price / ft²</button> -->
     </div>
 
     <div id="tooltip" class="hidden">
@@ -40,17 +40,17 @@
 
     <div id="visualization"></div>
 
-    <!-- 
-    NOTE: We're using CoffeeScript (http://coffeescript.org/), a cleaner and       
-    less syntactically-dense version of JavaScript, to generate the JavaScript   
-    necessary to work with D3. We store our CoffeeScript in the `coffee` directory,
-    and keep the compiled, human-readable JavaScript in the `js` directory.      
-    Since it contains our comments and formatting, we strongly recommend looking   
-    at our CoffeeScript code. Besides, it's very similar to the JavaScript we would
-    otherwise write; if you know JavaScript, you know CoffeeScript. Thank you    
-    for understanding.
-    -->
     <script src="js/recovery.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-33031883-2', 'renzolucioni.com');
+        ga('send', 'pageview');
+    </script>
 
 </body>
 </html>
