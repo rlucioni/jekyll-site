@@ -57,7 +57,7 @@
         <p id="overlayTitle"></p>
         <p id="overlayText"></p>
 
-        <button class="overlay-btn" id="btnDone" type="button" name="done">Ok, got it!</button>
+        <button class="overlay-btn" id="btnDone" type="button" name="done">Done</button>
         <p id="overlayProgress"></p>
     </div>
 
@@ -75,6 +75,16 @@
 
     <div id="visualization"></div>
 
+    <!-- 
+    NOTE: We're using CoffeeScript (http://coffeescript.org/), a cleaner and       
+    less syntactically-dense version of JavaScript, to generate the JavaScript   
+    necessary to work with D3. We store our CoffeeScript in the `coffee` directory,
+    and keep the compiled, human-readable JavaScript in the `js` directory.      
+    Since it contains our comments and formatting, we strongly recommend looking   
+    at our CoffeeScript code. Besides, it's very similar to the JavaScript we would
+    otherwise write; if you know JavaScript, you know CoffeeScript. Thank you    
+    for understanding.
+    -->
     <script src="js/recovery.js"></script>
 
     <div class="container">
