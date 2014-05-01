@@ -6,6 +6,7 @@ modified: 2014-04-30
 category: articles
 tags: [housing, interactive, visualization]
 comments: false
+published: false
 ---
 
 The US housing market has been an area of intense interest in recent years. Real estate plays an integral role in the US economy, representing a significant source of income for some and a significant investment for others. Residential real estate provides housing for individuals and their families, and often represents a family’s most significant investment. Commercial real estate provides space for offices, factories, and apartment buildings.
