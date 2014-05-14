@@ -15,6 +15,6 @@ In the last several years, the conversation on the US housing market has focused
 In an attempt to fill this communication gap, my friend Kathy Lin and I designed and built an interactive visualization meant to be used as a tool for exploring recent trends in the US housing market. A screenshot of the tool appears below. [Access it here](http://renzolucioni.com/recovery) - please note that it performs best on desktop.
 
 <figure>
-    <a href="http://renzolucioni.com/recovery" target="_blank"><img src="http://i.imgur.com/rZ5DnyV.png"></a>
+    <a href="http://www.renzolucioni.com/recovery" target="_blank"><img src="http://i.imgur.com/rZ5DnyV.png"></a>
     <figcaption>Click image to access the interactive visualization.</figcaption>
 </figure>
