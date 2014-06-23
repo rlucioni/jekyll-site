@@ -78,6 +78,10 @@ $blue-t1: rgba($blue,0.25);
 $blue-t2: rgba($blue,0.50);
 $blue-t3: rgba($blue,0.75);
 
+$orange: rgb(255, 165, 0);
+$orange-s2: saturate($orange,30%);
+$orange-u2: desaturate($orange,30%);
+
 // --------------------
 
 // fonts
@@ -127,9 +131,9 @@ $anim-distance-offviewport: ($baseline-h*100);                      // for large
 // --------------------
 
 // general actions
-$color-primary: $blue-s2;
-$color-secondary: $blue;
-$color-teritary: $blue-u2;
+$color-primary: $orange-s2;
+$color-secondary: $orange;
+$color-teritary: $orange-u2;
 
 // --------------------
 

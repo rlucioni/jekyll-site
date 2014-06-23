@@ -1,5 +1,5 @@
 title:            Renzo Lucioni
-description:      Designed in Peru. Assembled in the US.
+description:      
 logo:             sleek-r-logo-filled.png
 disqus_shortname: 
 search:           true
@@ -32,10 +32,14 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
+  - title: Home
+    url: /
   - title: Articles
     url: /articles
+  - title: About
+    url: /about
+  - title: Resume
+    url: /resume
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

@@ -1,18 +1,33 @@
 ---
-layout: page
+layout: clean
 permalink: /about/index.html
-title: About Me
-tags: [about, resume, email]
-modified: 2013-11-14
-image:
-  feature: intermezzo-andy-gilmore.png
-  credit: Andy Gilmore
-  creditlink: http://crowquills.com/Intermezzo
+title: About
+tags: [about]
+modified: 2014-06-22
 ---
 
-Hi, I’m Renzo Lucioni. I'm a Harvard senior who enjoys solving problems and organizing information. I'm interested in using information visualization to make complex data accessible, useful, and even fun.
+{% highlight css %}
+>>> Renzo.employer
+'edX'
 
-<div align="center">
-    <a markdown="0" href="http://www.renzolucioni.com/resume" class="btn">View My Resume</a>
-    <a markdown="0" href="mailto:renzo@renzolucioni.com" class="btn">Email Me</a>
-</div>
+>>> Renzo.alma_mater
+'Harvard College'
+
+>>> Renzo.languages
+['Python', 'CoffeeScript', 'JavaScript', 'C', 'HTML', 'CSS', 'Spanish']
+
+>>> Renzo.interests
+['data visualization', 'biographies', 'hiking']
+
+>>> Renzo.addictions
+['reddit', 'gym', 'Civilization V', 'QuizUp']
+
+>>> Renzo.location
+'Cambridge, MA'
+
+>>> Renzo.home
+'Seattle, WA'
+
+>>> Renzo.contact
+['renzo@renzolucioni.com', '@RenzoLucioni']
+{% endhighlight %}

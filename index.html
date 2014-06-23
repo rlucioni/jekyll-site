@@ -1,12 +1,8 @@
 ---
 layout: page
-title: Latest Posts
+title:
 description: "The home page of renzolucioni.com"
 tags: [home, index, blog]
 ---
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
+Hi, I’m Renzo. I like making things with words and code. I'm interested in using information visualization to make complex data accessible, useful, and fun. <a class="chat" href="mailto:renzo@renzolucioni.com">I'd love to chat.</a>
