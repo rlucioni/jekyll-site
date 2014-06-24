@@ -11,7 +11,7 @@ modified: 2014-06-22
 'edX'
 
 >>> Renzo.alma_mater
-'Harvard College'
+'Harvard'
 
 >>> Renzo.languages
 ['Python', 'CoffeeScript', 'JavaScript', 'C', 'HTML', 'CSS', 'Spanish']
@@ -19,13 +19,13 @@ modified: 2014-06-22
 >>> Renzo.interests
 ['data visualization', 'biographies', 'hiking']
 
->>> Renzo.addictions
-['reddit', 'gym', 'Civilization V', 'QuizUp']
+>>> Renzo.pastimes
+['reddit', 'gym', 'Civilization V', 'FTL']
 
->>> Renzo.location
+>>> Renzo.current_location
 'Cambridge, MA'
 
->>> Renzo.home
+>>> Renzo.home_location
 'Seattle, WA'
 
 >>> Renzo.contact
