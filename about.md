@@ -3,7 +3,7 @@ layout: clean
 permalink: /about/index.html
 title: About
 tags: [about]
-modified: 2014-06-22
+modified: 2014-08-21
 ---
 
 {% highlight css %}
@@ -20,7 +20,7 @@ modified: 2014-06-22
 ['data visualization', 'biographies', 'hiking']
 
 >>> Renzo.pastimes
-['reddit', 'gym', 'Civilization V', 'FTL']
+['swimming', 'reddit', 'gym', 'Civilization V']
 
 >>> Renzo.current_location
 'Cambridge, MA'
