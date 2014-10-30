@@ -3,7 +3,7 @@ layout: clean
 permalink: /about/index.html
 title: About
 tags: [about]
-modified: 2014-08-21
+modified: 2014-10-29
 ---
 
 {% highlight css %}
@@ -13,21 +13,15 @@ modified: 2014-08-21
 >>> Renzo.alma_mater
 'Harvard'
 
->>> Renzo.languages
-['Python', 'CoffeeScript', 'JavaScript', 'C', 'HTML', 'CSS', 'Spanish']
-
 >>> Renzo.interests
-['data visualization', 'biographies', 'hiking']
+['data visualization', 'software development', 'cooking']
 
->>> Renzo.pastimes
-['swimming', 'reddit', 'gym', 'Civilization V']
+>>> Renzo.activities
+['swimming', 'weight training', 'video games', 'hiking']
 
->>> Renzo.current_location
-'Cambridge, MA'
+>>> Renzo.location
+{'city': 'Cambridge', 'state': 'MA'}
 
->>> Renzo.home_location
-'Seattle, WA'
-
->>> Renzo.contact
-['renzo@renzolucioni.com', '@RenzoLucioni']
+>>> Renzo.contact_info
+{'email': 'renzo@renzolucioni.com', 'twitter': '@RenzoLucioni'}
 {% endhighlight %}
